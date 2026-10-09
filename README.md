@@ -1,10 +1,14 @@
-# Astroguru 1.2.1 desktop application
+# Astroguru 1.2.2 desktop application
 
-[Download the complete Astroguru 1.2.1 ZIP](https://github.com/menababu-debug/AstroGuru/raw/refs/heads/main/Astroguru-1.2.1.zip)
+[Download the complete Astroguru 1.2.2 ZIP](https://github.com/menababu-debug/AstroGuru/raw/refs/heads/main/Astroguru-1.2.2.zip)
 
-## API-start fixes in 1.2.1
+## API-start fixes in 1.2.2
 
 Saving a new key enables automatic generation. Local-only and cancelled-consent paths explicitly state that no request was sent. Active generation shows contacting/received response stages. Connection testing uses a separate minimal request. Billing, key, model and network errors are actionable and redacted. Safe negated-guarantee wording is accepted; exhausted credit quota is not retried.
+
+## Visible results in 1.2.2
+
+Connection tests open a result window. AI live progress shows completed sections immediately, elapsed time and section counts; full assembly/PDF follows after all sections. Paused errors remain visible after reopening reports. Live account/network failures remain unconfirmed without the connection result. Source checks passed; frozen Linux smoke verification refers to 1.2.1.
 
 ## Automatic detailed AI reports
 
@@ -40,7 +44,7 @@ To build Astroguru.exe and Astroguru-Setup.exe, install Inno Setup 6 and run bui
 
 ## Verification and limitations
 
-78 automated tests passed. Source and frozen Linux offline smoke tests passed. Verification includes detailed job/horizon planning, consent gates, input minimization, both text/image adapter shapes, cancellation/resumption, missing-photo rejection, optional-art failure and real local PDF assembly with a synthetic image. Live API authorization/output quality, Windows Credential Manager, clean-machine installation and physical printing still need target-platform verification.
+80 automated tests passed. Source and frozen Linux offline smoke tests passed. Verification includes detailed job/horizon planning, consent gates, input minimization, both text/image adapter shapes, cancellation/resumption, missing-photo rejection, optional-art failure and real local PDF assembly with a synthetic image. Live API authorization/output quality, Windows Credential Manager, clean-machine installation and physical printing still need target-platform verification.
 
 Interpretations are traditional reflections, not guaranteed outcomes. Review AI-generated reports before sharing. Original calculated tables and scores remain authoritative. Automatic PDFs are unencrypted exported documents; encrypted backups retain report data/artwork, not separate PDF exports.
 
